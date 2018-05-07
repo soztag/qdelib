@@ -1,0 +1,15 @@
+--- 
+title: "Qmethod"
+author: "Maximilian Held"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [library.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: soztag/q-18-ss
+description: "This is the website for the qmethod course at Friedrich-Alexander Universität Erlangen-Nürnberg in the 2018 summer term."
+---
+
+# Index

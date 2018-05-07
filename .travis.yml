@@ -1,0 +1,21 @@
+# R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
+
+language: r
+
+warnings_are_errors: false
+
+cache:
+  packages: true
+
+script:
+  - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  local-dir: _book/
+  on:
+    branch: master
+
+notifications:
+  email: false
