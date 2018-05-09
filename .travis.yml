@@ -8,12 +8,12 @@ cache:
   packages: true
 
 script:
-  - Rscript -e "bookdown::render_book('index.Rmd', 'bookdown::gitbook')"
+  - Rscript -e "rmarkdown::render_site()"
 
 deploy:
   provider: pages
   skip_cleanup: true
-  local-dir: _book/
+  local-dir: _site/
   github-token: $GITHUB_TOKEN
   on:
     branch: master

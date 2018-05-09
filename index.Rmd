@@ -1,15 +1,47 @@
---- 
-title: "Qmethod"
-author: "Maximilian Held"
-date: "`r Sys.Date()`"
-site: bookdown::bookdown_site
-output: bookdown::gitbook
-documentclass: book
-bibliography: [library.bib]
-biblio-style: apalike
-link-citations: yes
-github-repo: soztag/q-18-ss
-description: "This is the website for the qmethod course at Friedrich-Alexander Universität Erlangen-Nürnberg in the 2018 summer term."
+---
+title: "Untitled"
 ---
 
-# Index
+> *Reaching understanding is the inherent telos of human speech.*
+> – Jürgen Habermas (1984: 287) 
+ 
+> *Operational definitions begin with concepts in search of behavior; operant definitions begin with behavior in search of concepts.*
+> – Steven Brown (1980: 28) 
+
+ 
+Q is an approach for the scientific study of human subjectivity, including a methodology, a special survey technique (the Q-Sort) and custom statistical analyses. 
+It dates back to the beginnings of psychometry (Stephenson 1935), and has since attracted a small, but scrappy following and spawned applications in many disciplines, including sociology, political science, public health and psychology. 
+
+In a Q study, participants weigh and rank-order a larger number of typically open-ended, longer or complex items carefully selected by the researchers. 
+The sorts of all participants are then statistically summarised into a few shared sorting patterns, and the resulting “ideal types” of shared subjectivity are thoroughly interpreted.
+
+Compared to conventional survey research, Q methodology promises to deliver a more inductive, explorative and holistic understanding of human subjectivity more akin to qualitative approaches, but its statistical component also allows some quantitative rigor. 
+Not as a mixed, but as a two-step method, Q thus combines aspects of qualitative and quantitative research.
+
+The seminar proceeds along the steps of a complete Q study, including concourse generation, item sampling, sorting procedure, factor retention and extraction, rotation, scoring and interpretation. 
+We engage old controversies in each of these steps and learn about new statistical approaches, many of which are implemented in the pensieve R software developed at FAU. 
+Students will also compare Q methodology to conventional “R-mode” survey research, though less because this dichotomy is to be taken as gospel, but to highlight the tradeoffs, limits and contradictions of any methodology, and to inform an epistemologically pragmatic choice.
+
+Finally, Q is suggested as a method to measure and enhance deliberative participation, with a special focus on subjective experiences in the workplace. 
+We will draw parallels between Q methodology and deliberative theory, assess the usefulness of sorting as a participation tool, and consider quantitative measures of deliberative quality.
+
+Q, as any research methodology, is strictly limited by the time and effort invested by researchers and participants, and requires a suitable context and research question. 
+Yet, in a world of big, but sometimes meaningless data, burgeoning filter bubbles and occasionally reductionistic survey research, Q offers something rare: to systematically expose people to new ideas, to carefully record their interaction, and to faithfully interpret the resulting viewpoints in their own terms.
+
+The regulative ideal of Q, then, is something simple, yet hard to come by in our time: deep, mutual understanding, as it might be reached after a thoughtful discussion with a trusted but dissenting friend. 
+Such communicative action in the lifeworld, is, alas, always threatened by our noisy systems and, in any case, does not “scale” very well. 
+Q might just be the next best thing we have; a humble and imperfect tool to engage each others subjectivity.
+
+Participants will conduct on a small Q study of their own design, using specialised software and open source tools for collaboration.
+
+
+## Prerequisites
+
+*Everyone* is welcome to this seminar.
+
+There are no hard prerequisites to fulfil, though participants are expected to:
+- read and discuss academic texts in English, as well as write in english,
+- catch up on basic descriptive statistics (the method is both qualitative and quantitative)
+- learn to use specialised command-line software and open-source tools for collaboration.
+
+No worries, we'll bring everyone up to speed in no time.

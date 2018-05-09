@@ -1,0 +1,6 @@
+name: "Qdelib"
+navbar:
+  title: "Q Methodology as a Deliberative Technology"
+  left:
+    - text: "About"
+      href: index.html
