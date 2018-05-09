@@ -2,6 +2,8 @@
 title: "Syllabus"
 ---
 
+[![Build Status](https://travis-ci.com/soztag/qdelib.svg?token=VqJKxxUwxXFJyYyqJx7G&branch=master)](https://travis-ci.com/soztag/qdelib)
+
 > *Reaching understanding is the inherent telos of human speech.*
 > – Jürgen Habermas (1984: 287) 
  
