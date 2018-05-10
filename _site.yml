@@ -1,6 +1,33 @@
-name: "Qdelib"
+name: Qdelib
 navbar:
-  title: "Q Methodology as a Deliberative Technology"
+  title: Q Methodology as a Deliberative Technology
   left:
-    - text: "About"
-      href: index.html
+  - text: Syllabus
+    href: index.html
+  - text: Instructor
+    href: http://www.maxheld.de
+  - text: Study
+    href: study.html
+  - text: UnivIS
+    href: http://univis.fau.de/
+  - text: meincampus
+    href: https://www.campus.uni-erlangen.de/
+  - text: studOn
+    href: https://www.studon.fau.de/crs2139506.html
+  - text: IFS
+    href: https://www.soziologie.phil.fau.de
+  right:
+  - icon: fa-github
+    href: https://github.com/soztag/qdelib
+output:
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+    smart: yes
+    fig_caption: yes
+    lib_dir: site_libs
+    self_contained: no
+output_dir: _site
+

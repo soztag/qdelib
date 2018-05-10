@@ -1,16 +1,30 @@
 ---
-title: "Untitled"
+title: "Syllabus"
+author:
+  name: "Maximilian Held"
+  affiliation: "Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+bibliography: library.bib
 ---
 
-> *Reaching understanding is the inherent telos of human speech.*
-> – Jürgen Habermas (1984: 287) 
- 
-> *Operational definitions begin with concepts in search of behavior; operant definitions begin with behavior in search of concepts.*
-> – Steven Brown (1980: 28) 
+```{r, child="README.rmd"}
+```
 
+---
+
+![[CiviCon](http://www.civicon.de) participants completing a Q-Sort &copy; [Max Held](http://www.maxheld.de) 2014](img/q-sorting2.jpg)
+
+> *Reaching understanding is the inherent telos of human speech.*  
+> --- Jürgen @Habermas-1984 [: 33]
  
+> *Operational definitions begin with concepts in search of behavior; operant definitions begin with behavior in search of concepts.*  
+> --- Steven @Brown1980 [: 28]
+
+
+## Course Description
+
 Q is an approach for the scientific study of human subjectivity, including a methodology, a special survey technique (the Q-Sort) and custom statistical analyses. 
-It dates back to the beginnings of psychometry (Stephenson 1935), and has since attracted a small, but scrappy following and spawned applications in many disciplines, including sociology, political science, public health and psychology. 
+It dates back to the beginnings of psychometry [@Stephenson1935a], and has since attracted a small, but scrappy following and spawned applications in many disciplines, including sociology, political science, public health and psychology. 
 
 In a Q study, participants weigh and rank-order a larger number of typically open-ended, longer or complex items carefully selected by the researchers. 
 The sorts of all participants are then statistically summarised into a few shared sorting patterns, and the resulting “ideal types” of shared subjectivity are thoroughly interpreted.
@@ -35,13 +49,58 @@ Q might just be the next best thing we have; a humble and imperfect tool to enga
 Participants will conduct on a small Q study of their own design, using specialised software and open source tools for collaboration.
 
 
-## Prerequisites
+## Prerequisites {.alert .alert-info}
 
 *Everyone* is welcome to this seminar.
 
 There are no hard prerequisites to fulfil, though participants are expected to:
+
 - read and discuss academic texts in English, as well as write in english,
 - catch up on basic descriptive statistics (the method is both qualitative and quantitative)
 - learn to use specialised command-line software and open-source tools for collaboration.
 
 No worries, we'll bring everyone up to speed in no time.
+
+
+## Venue {.alert .alert-warning}
+
+Classes will take place in one of two FAU locations:
+
+IFS
+
+: 
+
+    | Institut für Soziologie
+    | Room 5052
+    | Kochstraße 4
+    | 91054 Erlangen
+
+
+NCT
+
+: 
+
+    | Nuremberg Campus of Technology
+    | "Auf AEG" Haus 11
+    | Room 11.2.2
+    | Fürther Straße 246c
+    | 90429 Nuremberg
+    
+    (The building can be hard to find; see [here](http://www.ncatec.de/nct/wir-ueber-uns/lageplan.html) for directions).
+
+
+## Schedule
+
+### Introduction
+
+April 12, 2018, 
+
+
+### Doing a Q-Sort
+
+
+
+## Contact
+
+
+## References
