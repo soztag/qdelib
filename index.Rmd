@@ -70,37 +70,198 @@ IFS
 
 : 
 
+    <adress>
     | Institut für Soziologie
     | Room 5052
     | Kochstraße 4
     | 91054 Erlangen
+    </adress>
 
 
 NCT
 
 : 
-
+    <address>
     | Nuremberg Campus of Technology
     | "Auf AEG" Haus 11
     | Room 11.2.2
     | Fürther Straße 246c
     | 90429 Nuremberg
+    </address>
     
     (The building can be hard to find; see [here](http://www.ncatec.de/nct/wir-ueber-uns/lageplan.html) for directions).
 
+
+## Material {.well}
+
+All *mandatory* course material (readings) will be either
+
+- freely available online, 
+- on [StudOn](https://www.studon.fau.de/),
+- (if copyright restrictions do not permit otherwise) available on the course reserve collection ("Semesterapparat") at the IFS library.
+
+In *addition*, recommended material may also be available in these places, but you do not *have* to read it.
+
+Please consult the below schedule for the mandatory readings.
 
 ## Schedule
 
 ### Introduction
 
-April 12, 2018, 
+<span class="label label-primary">Thursday, April 12, 2018 14:15--15:45</span>
+<span class="label label-default">IFS</span>
+<span class="label label-success">No Readings</span>
+
+#### Recommended Readings
+
+- @Exel2005
 
 
 ### Doing a Q-Sort
 
-### Formulating a Research Question
+<span class="label label-primary">Thursday, April 19, 2018 14:15--15:45</span>
+<span class="label label-default">NCT</span>
+<span class="label label-success">No Readings</span>
+
+
+### Designing our own Q-Study
+
+<span class="label label-primary">Friday, May 25, 2018 09:00-18:00</span>
+<span class="label label-default">NCT</span>
+<span class="label label-warning">Bring Your Computer</span>
+<span class="label label-info">All Day</span>
+
+During this session, we conceive of our own Q research design, based on selected theoretical and methodological foundations.
+
+| Time | Topic | Mandatory Reading |
+|-------|---------------------------------|-------------------|
+| 09:00 | Results from April 19 |  |
+| 10:00 | Theory I: Discourse Ethics | @Habermas-1998-aa |
+| 12:00 | Theory II: Operant Subjectivity | @brown-1993-a, @Watts2012 [Chapters 1--3] |
+| 14:00 | Defining our Q Study Topic |  |
+| 15:00 | Methodology I: Creating Good Q-Items | @BakerConstructingStatementSets2017 |
+| 17:00 | Preparing Q-Items | |
+
+
+#### Field Work {.alert .alert-warning}
+
+Between this session (May 25) and the next one (June 22), you are expected to conduct **10** Q-Sorts with willing participants, **2** of which you should complete *in person*.
+Recruiting participants can take some time, and so does administering a Q-Sort, especially in person.
+Plan accordingly.
+
+Remember to sample a *diverse* group of people in terms of demographics (age, income, gender) and with regard to the chosen topic.
+
+
+### Learning the Tools (FOSS and PCA)
+
+<span class="label label-primary">Friday, June 22, 2018 09:00-18:00</span>
+<span class="label label-default">NCT</span>
+<span class="label label-warning">Bring Your Computer</span>
+<span class="label label-info">All Day</span>
+
+
+<div class="alert alert-warning">
+Remember to **bring and update your computer**.
+Specifically:
+
+- Have a current version of the [Chrome](https://www.google.com/chrome/) or [Firefox](https://www.firefox.com) web browsers installed.
+- Make sure that your WiFi works.
+  At NCT, we have `FAU-STUD`, `eduroam` and `FAU.fm`.
+  If you need help setting up your WiFi, consult the [RRZE Website](https://www.rrze.fau.de).
+- Bring your power adapter.
+- A mobile device (iOS or Android tablet) *will not suffice*.
+  You need a laptop, but pretty much any (cheap or old) device will be fine, if it can run the above browsers in a current version.
+- If you do not have access to a laptop, please contact the course instructor (me) in advance, and we'll arrange a device for you.
+</div>
+
+During this session, we learn the tools we need to analyse our results and to collaborate on our report.
+
+| Time | Topic | Mandatory Reading |
+|-------|---------------------------------|-------------------|
+| 09:00 | Pandoc Markdown | [Pandoc Markdown](https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html) |
+| 10:00 | Git(hub) | [GitHub Guides](https://guides.github.com), [Try Git](https://try.github.io/), [git documentation](https://git-scm.com/doc) (optional, browse only)|
+| 15:00 | Methodology II: PCA | @Thompson-2004 [: Chapters 1--3] |
+
+
+#### Optional Installations
+
+If you'd like to be able to use more advanced tools for analysis, editing and compiling on *your own* computer, feel free to install these.
+
+- [Pandoc, a universal document converter](https://pandoc.org)
+- [LaTeX Typsetting System](https://www.latex-project.org)
+- [git decentralized source control management (SCM)](https://git-scm.com)
+- [R Project for Statistical Computing](Statisticalhttps://www.r-project.org)
+- [RStudio R Integrated Development Environment (IDE)](https://www.rstudio.com/products/RStudio/)
+- A bunch of R packages:
+  - [tidyverse](https://www.tidyverse.org)
+  - [rmarkdown](https://rmarkdown.rstudio.com)
+  - [pensieve](https://pensieve.maxheld.de)
+
+The steps required for installation will depend on your platform and system setup.
+Please understand that we cannot support or troubleshoot these installations during class; there, however, are ample resources on the internet for troubleshooting an installation.
+
+In any event, you will *not need* to use this software on your computer.
+To save time, we will rely on web-based alternatives wherever possible.
+
+
+### Analysing our Results
+
+<span class="label label-primary">Saturday, June 23, 2018 09:00-18:00</span>
+<span class="label label-default">NCT</span>
+<span class="label label-warning">Bring Your Computer</span>
+<span class="label label-warning">Bring Food (cafeteria closed)</span>
+<span class="label label-info">All Day</span>
+
+During this session, we interactively investigate our data and make analytical choices for our results.
+
+| Time | Topic | Mandatory Reading |
+|-------|---------------------------------|-------------------|
+| 09:00 | Correlations | @Brown1980 [: Chapter 4]  |
+| 10:00 | Factor Extraction and Retention | |
+| 11:00 | Factor Rotation (Loadings) | |
+| 12:00 | Factor Scores | |
+| 14:00 | Factor Interpretation | @Watts2012 [: Chapter 4] |
+| 16:00 | Write-Up | |
+
+
+### Interpretation and Review
+
+<span class="label label-primary">Saturday, June 30, 2018 09:00-18:00</span>
+<span class="label label-default">NCT</span>
+<span class="label label-warning">Bring Your Computer</span>
+<span class="label label-warning">Bring Food (cafeteria closed)</span>
+<span class="label label-info">All Day</span>
+
+During this session, we wrap up and reflect on our work.
+
+| Time | Topic | Mandatory Reading |
+|-------|---------------------------------|-------------------|
+| 09:00 | Review of Write-Up | |
+| 14:00 | Reflection | @Brown1980 [: Epilogue, 321ff] |
+
 
 ## Contact
 
+Find my contact details [here](http://www.maxheld.de).
+
+
+## Recommended Readings (Optional)
+
+- @Habermas1996b
+  - Chapter 7: Deliberative Politics
+  - Chapter 4.2: Communicative Power and the Genesis of Law
+  - Additionally: Chapters 3, 4, 7, 8, Preface
+- @Habermas1994
+- @Habermas-1984
+  - Chapter III, 2-4
+  - Chapter VI: 1
+- @Brown1980
+- @Good-1998
+- @McKeown2013
+- @Niemeyer2013
+- @Paige-Morin-2014
+- @stephenson-1935
+- @Stephenson1953
+- @Watts2012
 
 ## References
