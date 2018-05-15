@@ -9,7 +9,7 @@ navbar:
   - text: Study
     href: study.html
   right:
-  - text: FAU
+  - icon: fa-university
     menu:
       - text: UnivIS
         href: http://univis.fau.de/
