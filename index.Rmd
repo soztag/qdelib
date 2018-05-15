@@ -7,19 +7,29 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 bibliography: library.bib
 ---
 
+<div class="jumbotron" style="color:white; background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/q-sorting2.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+  <h1>Q Methodology as a Deliberative Technology</h1>
+  <p>... the next best thing to a personal conversation?</p>
+  <p>
+    <span class="label label-info">
+      #qdelib
+    </span>
+  </p>
+  <p><small><sub>
+    Image Credit: [CiviCon](http://www.civicon.de) participants completing a Q-Sort &copy; [Max Held](http://www.maxheld.de) 2014
+  </sub></small></p>
+</div>
+
 ```{r, child="README.Rmd"}
 ```
 
 ---
-
-![[CiviCon](http://www.civicon.de) participants completing a Q-Sort &copy; [Max Held](http://www.maxheld.de) 2014](img/q-sorting2.jpg)
 
 > *Reaching understanding is the inherent telos of human speech.*  
 > --- Jürgen @Habermas-1984 [: 33]
  
 > *Operational definitions begin with concepts in search of behavior; operant definitions begin with behavior in search of concepts.*  
 > --- Steven @Brown1980 [: 28]
-
 
 ## Course Description
 
