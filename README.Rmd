@@ -8,3 +8,10 @@ title: About
 
 As part of the class, participants are undertaking a Q-methodological study.
 Results are collaboratively documented in this repository.
+
+Also see:
+
+- [UnivIS](http://univis.fau.de/)
+- [meincampus](https://www.campus.uni-erlangen.de/)
+- [studOn](https://www.studon.fau.de/crs2139506.html)
+- [IFS](https://www.soziologie.phil.fau.de)

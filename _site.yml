@@ -8,14 +8,6 @@ navbar:
     href: http://www.maxheld.de
   - text: Study
     href: study.html
-  - text: UnivIS
-    href: http://univis.fau.de/
-  - text: meincampus
-    href: https://www.campus.uni-erlangen.de/
-  - text: studOn
-    href: https://www.studon.fau.de/crs2139506.html
-  - text: IFS
-    href: https://www.soziologie.phil.fau.de
   right:
   - icon: fa-github
     href: https://github.com/soztag/qdelib
