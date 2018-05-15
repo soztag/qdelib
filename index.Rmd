@@ -69,14 +69,12 @@ Classes will take place in one of two FAU locations:
 IFS
 
 : 
-
-    <adress>
+    <address>
     | Institut für Soziologie
     | Room 5052
     | Kochstraße 4
     | 91054 Erlangen
-    </adress>
-
+    </address>
 
 NCT
 
