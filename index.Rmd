@@ -8,7 +8,7 @@ bibliography: library.bib
 ---
 
 <div class="jumbotron" style="color:white; background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/q-sorting2.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
-  <h1>Q Methodology as a Deliberative Technology</h1>
+  <h2>Q Methodology as a Deliberative Technology</h1>
   <p>... the next best thing to a personal conversation?</p>
   <p>
     <span class="label label-info">
@@ -145,7 +145,7 @@ During this session, we conceive of our own Q research design, based on selected
 |-------|---------------------------------|-------------------|
 | 09:00 | Results from April 19 |  |
 | 10:00 | Theory I: Discourse Ethics | @Habermas-1998-aa |
-| 12:00 | Theory II: Operant Subjectivity | @brown-1993-a, @Watts2012 [Chapters 1--3, only available at IFS library course reserve aka. "Semesterapparat"] |
+| 12:00 | Theory II: Operant Subjectivity | @brown-1993-a, @Watts2012 [Chapters 1--3, only available at IFS library course reserve aka. ""] |
 | 14:00 | Defining our Q Study Topic |  |
 | 15:00 | Methodology I: Creating Good Q-Items | @BakerConstructingStatementSets2017 |
 | 17:00 | Preparing Q-Items | |

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Syllabus</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">qdelib</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Syllabus</a>
+</li>
+<li>
+  <a href="http://www.maxheld.de">Instructor</a>
+</li>
+<li>
+  <a href="study.html">Study</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-university"></span>
+     
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="http://univis.fau.de/">UnivIS</a>
+    </li>
+    <li>
+      <a href="https://www.campus.uni-erlangen.de/">meincampus</a>
+    </li>
+    <li>
+      <a href="https://www.studon.fau.de/crs2139506.html">studOn</a>
+    </li>
+    <li>
+      <a href="https://www.soziologie.phil.fau.de)">Institut für Soziologie</a>
+    </li>
+    <li>
+      <a href="https://www.ncatec.de">Nuremberg Campus of Technology</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="https://github.com/soztag/qdelib">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Syllabus</h1>
+<h4 class="author"><em>Maximilian Held</em></h4>
+<address class="author_afil">
+Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)<br><h4 class="date"><em>21 May, 2018</em></h4>
+
+</div>
+
+
+<div class="jumbotron" style="color:white; background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(img/q-sorting2.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+<h1>
+Q Methodology as a Deliberative Technology
+</h1>
+<p>
+… the next best thing to a personal conversation?
+</p>
+<p>
+<span class="label label-info"> #qdelib </span>
+</p>
+<p>
+<small><sub> Image Credit: <a href="http://www.civicon.de">CiviCon</a> participants completing a Q-Sort © <a href="http://www.maxheld.de">Max Held</a> 2014 </sub></small>
+</p>
+</div>
+<p><a href="https://travis-ci.com/soztag/qdelib"><img src="https://travis-ci.com/soztag/qdelib.svg?token=VqJKxxUwxXFJyYyqJx7G&amp;branch=master" alt="Build Status" /></a></p>
+<p>“Q Methodology as a Deliberative Technology” is an undergraduate seminar taught by <a href="http://www.maxheld.de">Max Held</a> at <a href="https://www.fau.de">Friedrich-Alexander Universität Erlangen-Nürnberg (FAU)</a> in the 2018 summer term.</p>
+<p>As part of the class, participants are undertaking a Q-methodological study. Results are collaboratively documented in this repository.</p>
+<hr />
+<blockquote>
+<p><em>Reaching understanding is the inherent telos of human speech.</em><br />
+— Jürgen <span class="citation">Habermas (1984: 33)</span></p>
+</blockquote>
+<blockquote>
+<p><em>Operational definitions begin with concepts in search of behavior; operant definitions begin with behavior in search of concepts.</em><br />
+— Steven <span class="citation">Brown (1980: 28)</span></p>
+</blockquote>
+<div id="course-description" class="section level2">
+<h2>Course Description</h2>
+<p>Q is an approach for the scientific study of human subjectivity, including a methodology, a special survey technique (the Q-Sort) and custom statistical analyses. It dates back to the beginnings of psychometry <span class="citation">(Stephenson 1935a)</span>, and has since attracted a small, but scrappy following and spawned applications in many disciplines, including sociology, political science, public health and psychology.</p>
+<p>In a Q study, participants weigh and rank-order a larger number of typically open-ended, longer or complex items carefully selected by the researchers. The sorts of all participants are then statistically summarised into a few shared sorting patterns, and the resulting “ideal types” of shared subjectivity are thoroughly interpreted.</p>
+<p>Compared to conventional survey research, Q methodology promises to deliver a more inductive, explorative and holistic understanding of human subjectivity more akin to qualitative approaches, but its statistical component also allows some quantitative rigor. Not as a mixed, but as a two-step method, Q thus combines aspects of qualitative and quantitative research.</p>
+<p>The seminar proceeds along the steps of a complete Q study, including concourse generation, item sampling, sorting procedure, factor retention and extraction, rotation, scoring and interpretation. We engage old controversies in each of these steps and learn about new statistical approaches, many of which are implemented in the pensieve R software developed at FAU. Students will also compare Q methodology to conventional “R-mode” survey research, though less because this dichotomy is to be taken as gospel, but to highlight the tradeoffs, limits and contradictions of any methodology, and to inform an epistemologically pragmatic choice.</p>
+<p>Finally, Q is suggested as a method to measure and enhance deliberative participation, with a special focus on subjective experiences in the workplace. We will draw parallels between Q methodology and deliberative theory, assess the usefulness of sorting as a participation tool, and consider quantitative measures of deliberative quality.</p>
+<p>Q, as any research methodology, is strictly limited by the time and effort invested by researchers and participants, and requires a suitable context and research question. Yet, in a world of big, but sometimes meaningless data, burgeoning filter bubbles and occasionally reductionistic survey research, Q offers something rare: to systematically expose people to new ideas, to carefully record their interaction, and to faithfully interpret the resulting viewpoints in their own terms.</p>
+<p>The regulative ideal of Q, then, is something simple, yet hard to come by in our time: deep, mutual understanding, as it might be reached after a thoughtful discussion with a trusted but dissenting friend. Such communicative action in the lifeworld, is, alas, always threatened by our noisy systems and, in any case, does not “scale” very well. Q might just be the next best thing we have; a humble and imperfect tool to engage each others subjectivity.</p>
+<p>Participants will conduct on a small Q study of their own design, using specialised software and open source tools for collaboration.</p>
+</div>
+<div id="prerequisites" class="section level2 alert alert-info">
+<h2>Prerequisites</h2>
+<p><em>Everyone</em> is welcome to this seminar.</p>
+<p>There are no hard prerequisites to fulfil, though participants are expected to:</p>
+<ul>
+<li>read and discuss academic texts in English, as well as write in english,</li>
+<li>catch up on basic descriptive statistics (the method is both qualitative and quantitative)</li>
+<li>learn to use specialised command-line software and open-source tools for collaboration.</li>
+</ul>
+<p>No worries, we’ll bring everyone up to speed in no time.</p>
+</div>
+<div id="venue" class="section level2 alert alert-warning">
+<h2>Venue</h2>
+<p>Classes will take place in one of two FAU locations:</p>
+<dl>
+<dt>IFS</dt>
+<dd><address>
+<div class="line-block">Institut für Soziologie<br />
+Room 5052<br />
+Kochstraße 4<br />
+91054 Erlangen</div>
+</address>
+</dd>
+<dt>NCT</dt>
+<dd><address>
+<div class="line-block">Nuremberg Campus of Technology<br />
+“Auf AEG” Haus 11<br />
+Room 11.2.2<br />
+Fürther Straße 246c<br />
+90429 Nuremberg</div>
+</address>
+<p>(The building can be hard to find; see <a href="http://www.ncatec.de/nct/wir-ueber-uns/lageplan.html">here</a> for directions).</p>
+</dd>
+</dl>
+</div>
+<div id="material" class="section level2 well">
+<h2>Material</h2>
+<p>All <em>mandatory</em> course material (readings) will be either</p>
+<ul>
+<li>freely available online,</li>
+<li>on <a href="https://www.studon.fau.de/">StudOn</a>,</li>
+<li>(if copyright restrictions do not permit otherwise) available on the course reserve collection (“Semesterapparat”) at the IFS library.</li>
+</ul>
+<p>In <em>addition</em>, recommended material may also be available in these places, but you do not <em>have</em> to read it.</p>
+<p>Please consult the below schedule for the mandatory readings.</p>
+</div>
+<div id="schedule" class="section level2">
+<h2>Schedule</h2>
+<div id="introduction" class="section level3">
+<h3>Introduction</h3>
+<p><span class="label label-primary">Thursday, April 12, 2018 14:15–15:45</span> <span class="label label-default">IFS</span> <span class="label label-success">No Readings</span></p>
+<div id="recommended-readings" class="section level4">
+<h4>Recommended Readings</h4>
+<ul>
+<li><span class="citation">van Exel and de Graaf (2005)</span></li>
+</ul>
+</div>
+</div>
+<div id="doing-a-q-sort" class="section level3">
+<h3>Doing a Q-Sort</h3>
+<p><span class="label label-primary">Thursday, April 19, 2018 14:15–15:45</span> <span class="label label-default">NCT</span> <span class="label label-success">No Readings</span></p>
+</div>
+<div id="designing-our-own-q-study" class="section level3">
+<h3>Designing our own Q-Study</h3>
+<p><span class="label label-primary">Friday, May 25, 2018 09:00-18:00</span> <span class="label label-default">NCT</span> <span class="label label-warning">Bring Your Computer</span> <span class="label label-info">All Day</span></p>
+<p>During this session, we conceive of our own Q research design, based on selected theoretical and methodological foundations.</p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="55%" />
+<col width="32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Topic</th>
+<th>Mandatory Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>09:00</td>
+<td>Results from April 19</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10:00</td>
+<td>Theory I: Discourse Ethics</td>
+<td><span class="citation">Habermas (1998)</span></td>
+</tr>
+<tr class="odd">
+<td>12:00</td>
+<td>Theory II: Operant Subjectivity</td>
+<td><span class="citation">Brown (1993)</span>, <span class="citation">Watts and Stenner (2012 Chapters 1–3, only available at IFS library course reserve aka. “Semesterapparat”)</span></td>
+</tr>
+<tr class="even">
+<td>14:00</td>
+<td>Defining our Q Study Topic</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>15:00</td>
+<td>Methodology I: Creating Good Q-Items</td>
+<td><span class="citation">Baker, McHugh, and Mason (2017)</span></td>
+</tr>
+<tr class="even">
+<td>17:00</td>
+<td>Preparing Q-Items</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div id="field-work" class="section level4 alert alert-warning">
+<h4>Field Work</h4>
+<p>Between this session (May 25) and the next one (June 22), you are expected to conduct <strong>10</strong> Q-Sorts with willing participants, <strong>2</strong> of which you should complete <em>in person</em>. Recruiting participants can take some time, and so does administering a Q-Sort, especially in person. Plan accordingly.</p>
+<p>Remember to sample a <em>diverse</em> group of people in terms of demographics (age, income, gender) and with regard to the chosen topic.</p>
+</div>
+</div>
+<div id="learning-the-tools-foss-and-pca" class="section level3">
+<h3>Learning the Tools (FOSS and PCA)</h3>
+<p><span class="label label-primary">Friday, June 22, 2018 09:00-18:00</span> <span class="label label-default">NCT</span> <span class="label label-warning">Bring Your Computer</span> <span class="label label-info">All Day</span></p>
+<div class="alert alert-warning">
+<p>Remember to <strong>bring and update your computer</strong>. Specifically:</p>
+<ul>
+<li>Have a current version of the <a href="https://www.google.com/chrome/">Chrome</a> or <a href="https://www.firefox.com">Firefox</a> web browsers installed.</li>
+<li>Make sure that your WiFi works. At NCT, we have <code>FAU-STUD</code>, <code>eduroam</code> and <code>FAU.fm</code>. If you need help setting up your WiFi, consult the <a href="https://www.rrze.fau.de">RRZE Website</a>.</li>
+<li>Bring your power adapter.</li>
+<li>A mobile device (iOS or Android tablet) <em>will not suffice</em>. You need a laptop, but pretty much any (cheap or old) device will be fine, if it can run the above browsers in a current version.</li>
+<li>If you do not have access to a laptop, please contact the course instructor (me) in advance, and we’ll arrange a device for you.</li>
+</ul>
+</div>
+<p>During this session, we learn the tools we need to analyse our results and to collaborate on our report.</p>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="55%" />
+<col width="32%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Topic</th>
+<th>Mandatory Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>09:00</td>
+<td>Pandoc Markdown</td>
+<td><a href="https://rmarkdown.rstudio.com/authoring_pandoc_markdown.html">Pandoc Markdown</a></td>
+</tr>
+<tr class="even">
+<td>10:00</td>
+<td>Git(hub)</td>
+<td><a href="https://guides.github.com">GitHub Guides</a>, <a href="https://try.github.io/">Try Git</a>, <a href="https://git-scm.com/doc">git documentation</a> (optional, browse only)</td>
+</tr>
+<tr class="odd">
+<td>15:00</td>
+<td>Methodology II: PCA</td>
+<td><span class="citation">Thompson (2004: Chapters 1–3)</span></td>
+</tr>
+</tbody>
+</table>
+<div id="optional-installations" class="section level4">
+<h4>Optional Installations</h4>
+<p>If you’d like to be able to use more advanced tools for analysis, editing and compiling on <em>your own</em> computer, feel free to install these.</p>
+<ul>
+<li><a href="https://pandoc.org">Pandoc, a universal document converter</a></li>
+<li><a href="https://www.latex-project.org">LaTeX Typsetting System</a></li>
+<li><a href="https://git-scm.com">git decentralized source control management (SCM)</a></li>
+<li><a href="Statisticalhttps://www.r-project.org">R Project for Statistical Computing</a></li>
+<li><a href="https://www.rstudio.com/products/RStudio/">RStudio R Integrated Development Environment (IDE)</a></li>
+<li>A bunch of R packages:
+<ul>
+<li><a href="https://www.tidyverse.org">tidyverse</a></li>
+<li><a href="https://rmarkdown.rstudio.com">rmarkdown</a></li>
+<li><a href="https://pensieve.maxheld.de">pensieve</a></li>
+</ul></li>
+</ul>
+<p>The steps required for installation will depend on your platform and system setup. Please understand that we cannot support or troubleshoot these installations during class; there, however, are ample resources on the internet for troubleshooting an installation.</p>
+<p>In any event, you will <em>not need</em> to use this software on your computer. To save time, we will rely on web-based alternatives wherever possible.</p>
+</div>
+</div>
+<div id="analysing-our-results" class="section level3">
+<h3>Analysing our Results</h3>
+<p><span class="label label-primary">Saturday, June 23, 2018 09:00-18:00</span> <span class="label label-default">NCT</span> <span class="label label-warning">Bring Your Computer</span> <span class="label label-warning">Bring Food (cafeteria closed)</span> <span class="label label-info">All Day</span></p>
+<p>During this session, we interactively investigate our data and make analytical choices for our results.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Topic</th>
+<th>Mandatory Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>09:00</td>
+<td>Correlations</td>
+<td><span class="citation">Brown (1980: Chapter 4)</span></td>
+</tr>
+<tr class="even">
+<td>10:00</td>
+<td>Factor Extraction and Retention</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11:00</td>
+<td>Factor Rotation (Loadings)</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>12:00</td>
+<td>Factor Scores</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>14:00</td>
+<td>Factor Interpretation</td>
+<td><span class="citation">Watts and Stenner (2012: Chapter 4)</span></td>
+</tr>
+<tr class="even">
+<td>16:00</td>
+<td>Write-Up</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="interpretation-and-review" class="section level3">
+<h3>Interpretation and Review</h3>
+<p><span class="label label-primary">Saturday, June 30, 2018 09:00-18:00</span> <span class="label label-default">NCT</span> <span class="label label-warning">Bring Your Computer</span> <span class="label label-warning">Bring Food (cafeteria closed)</span> <span class="label label-info">All Day</span></p>
+<p>During this session, we wrap up and reflect on our work.</p>
+<table>
+<thead>
+<tr class="header">
+<th>Time</th>
+<th>Topic</th>
+<th>Mandatory Reading</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>09:00</td>
+<td>Review of Write-Up</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>14:00</td>
+<td>Reflection</td>
+<td><span class="citation">Brown (1980: Epilogue, 321ff)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="contact" class="section level2">
+<h2>Contact</h2>
+<p>Find my contact details <a href="http://www.maxheld.de">here</a>.</p>
+</div>
+<div id="recommended-readings-optional" class="section level2">
+<h2>Recommended Readings (Optional)</h2>
+<ul>
+<li><span class="citation">Habermas (1996)</span>
+<ul>
+<li>Chapter 7: Deliberative Politics</li>
+<li>Chapter 4.2: Communicative Power and the Genesis of Law</li>
+<li>Additionally: Chapters 3, 4, 7, 8, Preface</li>
+</ul></li>
+<li><span class="citation">Habermas (1994)</span></li>
+<li><span class="citation">Habermas (1984)</span>
+<ul>
+<li>Chapter III, 2-4</li>
+<li>Chapter VI: 1</li>
+</ul></li>
+<li><span class="citation">Brown (1980)</span></li>
+<li><span class="citation">Good (1998)</span></li>
+<li><span class="citation">McKeown and Thomas (2013)</span></li>
+<li><span class="citation">Niemeyer, Ercan, and Hartz-Karp (2013)</span></li>
+<li><span class="citation">Paige and Morin (2014)</span></li>
+<li><span class="citation">Stephenson (1935b)</span></li>
+<li><span class="citation">Stephenson (1953)</span></li>
+<li><span class="citation">Watts and Stenner (2012)</span></li>
+</ul>
+</div>
+<div id="references" class="section level2 unnumbered">
+<h2>References</h2>
+<div id="refs" class="references">
+<div id="ref-BakerConstructingStatementSets2017">
+<p>Baker, Rachel, Neil McHugh, and Helen Mason. 2017. “Constructing Statement Sets for Use in Q Methodology Studies.” In <em>Qualitative Methods for Health Economics</em>.</p>
+</div>
+<div id="ref-Brown1980">
+<p>Brown, Steven R. 1980. <em>Political Subjectivity: Applications of Q Methodology in Political Science</em>. New Haven, CT: Yale University Press.</p>
+</div>
+<div id="ref-brown-1993-a">
+<p>———. 1993. “A Primer on Q Methodology.” <em>A Primer on Q Methodology</em> 16 (3/4): 91–138.</p>
+</div>
+<div id="ref-Good-1998">
+<p>Good, James. 1998. “William Stephenson and the Quest for A Science of Subjectivity.” <em>Revista de Historia de La Psicologia</em> 19 (2-3): 431–39.</p>
+</div>
+<div id="ref-Habermas-1984">
+<p>Habermas, Jürgen. 1984. <em>The Theory of Communicative Action</em>. Berkeley, CA: University of California Press.</p>
+</div>
+<div id="ref-Habermas1994">
+<p>———. 1994. “Three Normative Models of Democracy.” <em>Constellations</em> 1 (1).</p>
+</div>
+<div id="ref-Habermas1996b">
+<p>———. 1996. <em>Between Facts and Norms – Contributions to a Discourse Theory of Law and Democracy</em>. Cambridge, MA: MIT Press.</p>
+</div>
+<div id="ref-Habermas-1998-aa">
+<p>———. 1998. “Actions, Speech Acts, Linguistically Mediated Interactions, and the Lifeworld.” In <em>Collection</em>.</p>
+</div>
+<div id="ref-McKeown2013">
+<p>McKeown, Bruce, and Dan B. Thomas. 2013. <em>Q Methodology</em>. Thousand Oaks, CA: SAGE.</p>
+</div>
+<div id="ref-Niemeyer2013">
+<p>Niemeyer, Simon, Selen Ayirtman Ercan, and Janette Hartz-Karp. 2013. “Understanding Deliberative Citizens – the Application of Q Methodology to Deliberation on Policy Issues.” <em>Operant Subjectivity</em> 36 (2): 114–34.</p>
+</div>
+<div id="ref-Paige-Morin-2014">
+<p>Paige, Jane B., and Karen H. Morin. 2014. “Q-Sample Construction – A Critical Step for a Q-Methodological Study.” <em>Western Journal of Nursing Research</em>, 1–15.</p>
+</div>
+<div id="ref-Stephenson1935a">
+<p>Stephenson, William. 1935a. “Correlating Persons Instead of Tests.” <em>Journal of Personality</em> 4 (1).</p>
+</div>
+<div id="ref-stephenson-1935">
+<p>———. 1935b. “Technique of Factor Analysis.” <em>Nature</em> 136: 297.</p>
+</div>
+<div id="ref-Stephenson1953">
+<p>———. 1953. <em>The Study of Behavior; Q-Technique and Its Methodology.</em> Chicago, IL: University of Chicago Press.</p>
+</div>
+<div id="ref-Thompson-2004">
+<p>Thompson, Bruce. 2004. <em>Exploratory and Confirmatory Factor Analysis - Understanding Concepts and Applications</em>. Washington, D.C.: American Psychological Association.</p>
+</div>
+<div id="ref-Exel2005">
+<p>van Exel, Job, and Gjalt de Graaf. 2005. “Q Methodology – A Sneak Preview.”</p>
+</div>
+<div id="ref-Watts2012">
+<p>Watts, Simon, and Paul Stenner. 2012. <em>Doing Q Methodological Research: Theory, Method &amp; Interpretation</em>. Thousand Oaks, CA: Sage Publications.</p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
