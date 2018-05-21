@@ -145,7 +145,7 @@ During this session, we conceive of our own Q research design, based on selected
 |-------|---------------------------------|-------------------|
 | 09:00 | Results from April 19 |  |
 | 10:00 | Theory I: Discourse Ethics | @Habermas-1998-aa |
-| 12:00 | Theory II: Operant Subjectivity | @brown-1993-a, @Watts2012 [Chapters 1--3] |
+| 12:00 | Theory II: Operant Subjectivity | @brown-1993-a, @Watts2012 [Chapters 1--3, only available at IFS library course reserve aka. "Semesterapparat"] |
 | 14:00 | Defining our Q Study Topic |  |
 | 15:00 | Methodology I: Creating Good Q-Items | @BakerConstructingStatementSets2017 |
 | 17:00 | Preparing Q-Items | |
