@@ -56,7 +56,7 @@ The regulative ideal of Q, then, is something simple, yet hard to come by in our
 Such communicative action in the lifeworld, is, alas, always threatened by our noisy systems and, in any case, does not “scale” very well. 
 Q might just be the next best thing we have; a humble and imperfect tool to engage each others subjectivity.
 
-Participants will conduct on a small Q study of their own design, using specialised software and open source tools for collaboration.
+Participants will conduct a small Q study of their own design, using specialised software and open source tools for collaboration.
 
 
 ## Prerequisites {.alert .alert-info}
@@ -206,7 +206,7 @@ If you'd like to be able to use more advanced tools for analysis, editing and co
   - [pensieve](https://pensieve.maxheld.de)
 
 The steps required for installation will depend on your platform and system setup.
-Please understand that we cannot support or troubleshoot these installations during class; there, however, are ample resources on the internet for troubleshooting an installation.
+Please understand that we cannot support or troubleshoot these installations during class, but you will find ample resources on the internet.
 
 In any event, you will *not need* to use this software on your computer.
 To save time, we will rely on web-based alternatives wherever possible.
