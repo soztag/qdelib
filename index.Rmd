@@ -157,7 +157,27 @@ Between this session (May 25) and the next one (June 22), you are expected to co
 Recruiting participants can take some time, and so does administering a Q-Sort, especially in person.
 Plan accordingly.
 
+The detailed deadlines are:
+
+- Tuesday, May 29: add and revise items (we need > 60 without duplicates).
+- Tuesday, May 29: vote on your preferred items (right now, it does not look like we will have more than absolutely needed anyway).
+- Wednesday, May 30: Translate "your" items into german.
+- Saturday, June 2: Receive Item Packets in your mail
+- Wednesday, June 13: Complete at least **2** in-person Q-Sorts by this point (to check whether how we're doing). *Briefly report the experience to Max*.
+- Thursday, June 14: Backup Qmethod meeting, in case things didn't go well.
+- Thursday, June 21: Gather remaining Q-Sorts in person (preferable) or online.
+  All participants need to contribute at least **10** Q-Sorts.
+
 Remember to sample a *diverse* group of people in terms of demographics (age, income, gender) and with regard to the chosen topic.
+
+
+### Backup Date
+
+<span class="label label-primary">Thursday, June 14, 2018 14:00-16:00</span>
+<span class="label label-default">IFS</span>
+<span class="label label-info">Optional</span>
+
+(If things go badly in the field.)
 
 
 ### Learning the Tools (FOSS and PCA)
