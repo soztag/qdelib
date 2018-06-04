@@ -7,7 +7,7 @@ navbar:
   - text: Instructor
     href: http://www.maxheld.de
   - text: Study
-    href: study.html
+    href: https://soztag.github.io/groundhog
   right:
   - icon: fa-university
     menu:
