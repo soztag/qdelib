@@ -248,7 +248,7 @@ During this session, we interactively investigate our data and make analytical c
 | 10:00 | Factor Extraction and Retention | |
 | 11:00 | Factor Rotation (Loadings) | |
 | 12:00 | Factor Scores | |
-| 14:00 | Factor Interpretation | @Watts2012 [: Chapter 4] |
+| 14:00 | Factor Interpretation | @Watts2012 [: Chapter 7] |
 | 16:00 | Write-Up | |
 
 
