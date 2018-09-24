@@ -275,8 +275,8 @@ Students who wish to receive a grade for the class (as opposed to a "Sitzschein"
 
 *Alternatively*, students can submit a *partial* report, to be combined with other parts from other students.
 
-There is no strict word limit, but students should expect to write at least around **3000 words** across their different contributions.
-Anything beyond **5000 words** is probably not necessary.
+There is no strict word limit, but students should expect to write at least around **2000 words** across their different contributions.
+Anything beyond **4000 words** is probably not necessary.
 
 The following grading rubric applies:
 
