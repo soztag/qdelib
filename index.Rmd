@@ -275,6 +275,9 @@ Students who wish to receive a grade for the class (as opposed to a "Sitzschein"
 
 *Alternatively*, students can submit a *partial* report, to be combined with other parts from other students.
 
+There is no strict word limit, but students should expect to write at least around **3000 words** across their different contributions.
+Anything beyond **5000 words** is probably not necessary.
+
 The following grading rubric applies:
 
 |  | Reasoning: **Conceptual** (20%) | Reasoning: **Thesis** (20%) | Reasoning: **Development  & Support**  (20%) | Reasoning: **Structuring** (20%) | Mechanics: **Rhetorical** (5%) | Mechanics: **Language** (5%) | Mechanics: **Technology** (10%) |
