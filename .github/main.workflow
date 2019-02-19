@@ -22,7 +22,7 @@ action "Render" {
   args = [
     "--verbose", 
     "-e \"{\"", 
-    "-e \"    deploy_dir <- rmarkdown::render_site(encoding = \"'UTF-8'\")\"", 
+    "-e \"    deploy_dir <- rmarkdown::render_site()\"", 
     "-e \"    deploy_dir <- fs::path_dir(deploy_dir)\"", 
     "-e \"    readr::write_lines(x = deploy_dir, path = \".deploy_dir\", \"", 
     "-e \"        append = FALSE)\"", 
