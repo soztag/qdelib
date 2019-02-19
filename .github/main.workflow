@@ -21,7 +21,6 @@ action "Render" {
   uses = "maxheld83/ghactions/Rscript-byod@master"
   args = [
     "--verbose", 
-    "--echo", 
     "-e \"{\"", 
     "-e \"    deploy_dir <- rmarkdown::render_site(encoding = \"UTF-8\")\"", 
     "-e \"    deploy_dir <- fs::path_dir(deploy_dir)\"", 
