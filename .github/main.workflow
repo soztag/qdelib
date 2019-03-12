@@ -1,7 +1,7 @@
 workflow "Render and Deploy RMarkdown Website" {
   on = "push"
   resolves = [
-    "Render", 
+    "Render",
     "Deploy"
   ]
 }
@@ -20,12 +20,12 @@ action "Render" {
   ]
   uses = "maxheld83/ghactions/Rscript-byod@master"
   args = [
-    "--verbose", 
-    "-e '{'", 
-    "-e '    deploy_dir <- rmarkdown::render_site(encoding = \"UTF-8\")'", 
-    "-e '    deploy_dir <- fs::path_dir(deploy_dir)'", 
-    "-e '    readr::write_lines(x = deploy_dir, path = \".deploy_dir\", '", 
-    "-e '        append = FALSE)'", 
+    "--verbose",
+    "-e '{'",
+    "-e '    deploy_dir <- rmarkdown::render_site(encoding = \"UTF-8\")'",
+    "-e '    deploy_dir <- fs::path_dir(deploy_dir)'",
+    "-e '    readr::write_lines(x = deploy_dir, path = \".deploy_dir\", '",
+    "-e '        append = FALSE)'",
     "-e '}'"
   ]
 }
@@ -46,7 +46,7 @@ action "Deploy" {
   ]
   uses = "maxheld83/rsync@v0.1.1"
   args = [
-    "$(< .deploy_dir)/",
+    "$GITHUB_WORKSPACE/`(cat .deploy_dir)`/",
     "pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource/qdelib"
   ]
   env = {
@@ -55,7 +55,7 @@ action "Deploy" {
     HOST_FINGERPRINT = "ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBFHJVSekYKuF5pMKyHe1jS9mUkXMWoqNQe0TTs2sY1OQj379e6eqVSqGZe+9dKWzL5MRFpIiySRKgvxuHhaPQU4="
   }
   secrets = [
-    "SSH_PRIVATE_KEY", 
+    "SSH_PRIVATE_KEY",
     "SSH_PUBLIC_KEY"
   ]
 }
