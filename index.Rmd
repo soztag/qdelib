@@ -11,9 +11,7 @@ bibliography: library.bib
   <h2>Q Methodology as a Deliberative Technology</h1>
   <p>... the next best thing to a personal conversation?</p>
   <p>
-    <span class="label label-info">
-      #qdelib
-    </span>
+  <span class="label label-info">#qdelib</span>
   </p>
   <p><small><sub>
     Image Credit: [CiviCon](http://www.civicon.de) participants completing a Q-Sort &copy; [Max Held](http://www.maxheld.de) 2014
