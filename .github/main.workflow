@@ -44,7 +44,7 @@ action "Deploy" {
   needs = [
     "Filter master"
   ]
-  uses = "maxheld83/rsync@v0.1.1"
+  uses = "maxheld83/rsync@master"
   args = [
     "$GITHUB_WORKSPACE/`(cat .deploy_dir)`/",
     "pfs400wm@karli.rrze.uni-erlangen.de:/proj/websource/docs/FAU/fakultaet/phil/www.datascience.phil.fau.de/websource/qdelib"
